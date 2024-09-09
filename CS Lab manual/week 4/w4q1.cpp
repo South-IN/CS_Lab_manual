@@ -40,7 +40,5 @@ int main(){
 	for (int i=0;i<n;i++){
 		scanf("%d",&arr[i]);
 	}
-	
-	n=6;
 	printf("min:%d\nmax:%d\nsum:%d\naverage:%f",min(arr,n),max(arr,n),sum(arr,n),avg(arr,n));
 }
